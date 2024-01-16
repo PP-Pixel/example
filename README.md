@@ -14,10 +14,10 @@
 [CSS Style|Rigel - © 2024 PP.](https://pp-pixel.github.io/example/rigel)
 
 
-```html
+```html:index.html
 <!DOCTYPE html>
 ```
-```css
+```css:style.css
 body {
   
 }
