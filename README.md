@@ -11,6 +11,6 @@
 ## 内容
 
 ### Rigelへ
-> [CSS Style|Rigel - © 2024 PP.](./rigel/)
+> [CSS Style|Rigel - © 2024 PP.](https://pp-pixel.github.io/example/rigel)
 
 ### 
