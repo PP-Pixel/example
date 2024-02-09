@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+
+body {
+    font-family: 'Klee One', cursive;
+}
+
+body {
+    background-image: url(../images/capyzou_black.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+}
+
+h1 {
+    text-align: center;
+}
+
+.body {
+    width: 60%;
+    margin-top: 80px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.left {
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.pc {
+    display: block !important;
+}
+
+.sp {
+    display: none !important;
+}
+
+@media only screen and (max-width: 750px) {
+    .pc {
+        display: none !important;
+    }
+
+    .sp {
+        display: block !important;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    body {
+        font-size: 140%;
+    }
+}
+
+#imgsita {
+    margin-top: 70px;
+}
+
+a {
+    color: black;
+}
+
+table {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead {
+    background-color: #fcecd0;
+}
+
+th {
+    border: 1px solid #ffe2b0;
+}
+
+td {
+    border: 1px solid #ffe2b0;
+}
+
+.material-symbols-outlined {
+    font-size: 90%;
+    color: #454545;
+}
+
+.space {
+    margin-top: 250px;
+}
