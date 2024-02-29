@@ -103,3 +103,19 @@
     color: #ffad5a;
     text-decoration: underline;
 }
+
+.undo {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    z-index: 99;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    color: #ffad5a;
+    /* background: #ff7700; */
+    width: 60px;
+    line-height: 60px;
+    /* border-radius: 20px; */
+    cursor: pointer;
+}
