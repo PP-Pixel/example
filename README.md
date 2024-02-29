@@ -11,5 +11,8 @@
 ### Test
 [定期考査のためのPDF配布所](https://pp-pixel.github.io/example/test/)
 
+### abus2023
+[アバス遺跡の謎](https://pp-pixel.github.io/example/abus/)
+
 <!--### Rigel-->
 <!--[CSS Style|Rigel - © 2024 PP.](https://pp-pixel.github.io/example/rigel)-->
