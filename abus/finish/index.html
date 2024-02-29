@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head prefix="og: https://ogp.me/ns#">
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+    <link rel="canonical" href="https://pp-pixel.github.io/example/abus">
+    <meta property="og:url" content="https://pp-pixel.github.io/example/abus" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="abus" />
+    <meta property="og:image" content="https://pp-pixel.github.io/example/abus/joho1-ogp.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:description" content="突如、長工に現れた謎の遺跡「アバス遺跡」この遺跡には秘宝が眠っているという噂があるようだが、、、ジョーンズと進む謎解きアトラクション" />
+    <meta property="og:site_name" content="© 2023 PP." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finish</title>
+    <!-- ServiceWorker -->
+    <link rel="manifest" href="https://pp-pixel.github.io/example/abus/manifest.json">
+    <script>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", function () {
+                navigator.serviceWorker.register("https://pp-pixel.github.io/example/abus/sw.js").then(
+                    function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ", registration.scope); },
+                    function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err); });
+            });
+        }
+    </script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body onselectstart="return false;" onmousedown="return false;">
+    <div class="body" id="b-audio">
+        <div class="content">
+            <p>COMPLETE</p>
+        </div>
+        <div class="top">
+            <a href="https://pp-pixel.github.io/example/abus/" onselectstart="return false;" onmousedown="return false;">
+                <span class="material-symbols-outlined">home</span>
+            </a>
+        </div>
+        <div class="sound" id="info-audio">
+            <span class="material-symbols-outlined">
+                volume_up
+            </span>
+        </div>
+    </div>
+    <script src="finish.js"></script>
+</body>
+
+</html>

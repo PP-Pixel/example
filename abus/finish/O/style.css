@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');
+
+.body {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(#ffd900, #351a00);
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    filter: drop-shadow(15px 5px 5px #000000);
+}
+
+.top a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    z-index: 99;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    color: #ffffff;
+    /* background: #ff7700; */
+    width: 60px;
+    line-height: 60px;
+    /* border-radius: 20px; */
+}
+
+.info-g {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    z-index: 99;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    color: #ffffff;
+    /* background: #ff7700; */
+    width: 60px;
+    line-height: 60px;
+    /* border-radius: 20px; */
+    cursor: pointer;
+}
+
+.info {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #ff8000;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    width: 200px;
+    height: 100px;
+    font-family: 'Aoboshi One', serif;
+}
+
+.info:hover {
+    opacity: 1;
+}
+.info p {
+    margin-top: 20px;
+    font-size: 150%;
+}
+
+.sound {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    z-index: 99;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    color: #ffad5a;
+    /* background: #ff7700; */
+    width: 60px;
+    line-height: 60px;
+    /* border-radius: 20px; */
+    cursor: pointer;
+  }

@@ -1,0 +1,22 @@
+{
+    "name"              : "アバス遺跡の謎",
+    "short_name"        : "アバス遺跡の謎",
+    "description"       : "IT1",
+    "start_url"         : "https://pp-pixel.github.io/example/abus/",
+    "id"         : "IT1",
+    "display"           : "standalone",
+    "background_color"  : "#ffffff",
+    "theme_color"       : "#ffffff",
+    "orientation"       : "landscape",
+    "display_override": ["window-controls-overlay"],
+    "icons": [{
+        "src"           : "https://pp-pixel.github.io/example/abus/favicon/joho1-192.png",
+        "sizes"         : "192x192",
+        "type"          : "image/png"
+      }, {
+        "src"           : "https://pp-pixel.github.io/example/abus/favicon/joho1-256.png",
+        "sizes"         : "256x256",
+        "type"          : "image/png"
+    }]
+  }
+  

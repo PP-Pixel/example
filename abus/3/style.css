@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+body {
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Palette Mosaic', cursive;
+    background-color: white;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+input {
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 150%;
+    text-align: center;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+button {
+    width: 100px;
+    height: 56px;
+    border-radius: 20px;
+    font-family: 'Palette Mosaic', cursive;
+    font-size: 85%;
+    text-align: center;
+}
+
+.kaitou {
+    display: flex;
+    justify-content: center;
+}
+
+.top a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    z-index: 99;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    color: #ffad5a;
+    /* background: #ff7700; */
+    width: 60px;
+    line-height: 60px;
+    /* border-radius: 20px; */
+}
+
+button {
+    cursor: pointer;
+}
