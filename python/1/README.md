@@ -1,23 +1,23 @@
 # 2年実習  流れ図とPython①（順次処理）解答例
 
-
-演習の例
-課題：「果物」
-
-考え方：リンゴの数とミカンの数とバナナの数をすべて加えると果物の総数になる
-
-流れ図：
-リンゴの数を入力し、整数に変換してｘに代入する
-ミカンの数を入力し、整数に変換してｙに代入する
-z = x + y + 3 として果物の総数を計算する
-z の値を表示する
-
-プログラム：
-
-    x=int(input())
-    y=int(input())
-    z=x+y+3
-    print(z)
+演習の例  
+> 課題：「果物」
+> 
+> 考え方：リンゴの数とミカンの数とバナナの数をすべて加えると果物の総数になる
+> 
+> 流れ図：
+> 1. リンゴの数を入力し、整数に変換してｘに代入する
+> 2. ミカンの数を入力し、整数に変換してｙに代入する
+> 3. z = x + y + 3 として果物の総数を計算する
+> 4. z の値を表示する
+> 
+> プログラム：
+> ```py
+> x=int(input())
+> y=int(input())
+> z=x+y+3
+> print(z)
+> ```
 
 
 
@@ -32,11 +32,12 @@ z の値を表示する
 4. Cの値を出力する
 
 ### プログラム：
-
-    a=int(input())
-    b=int(input())
-    c=a*b
-    print(c)
+```py
+a=int(input())
+b=int(input())
+c=a*b
+print(c)
+```
 
 
 
@@ -50,10 +51,11 @@ z の値を表示する
 3. Yの値を出力する
 
 ### プログラム：
-
-    x=int(input())
-    y=x*x*x
-    print(y)
+```py
+x=int(input())
+y=x*x*x
+print(y)
+```
 
 
 
@@ -69,12 +71,13 @@ z の値を表示する
 5. Dの値を出力する
 
 ### プログラム：
-
-    a=int(input())
-    b=int(input())
-    c=int(input())
-    d=a*b+c
-    print(d)
+```py
+a=int(input())
+b=int(input())
+c=int(input())
+d=a*b+c
+print(d)
+```
 
 
 
@@ -90,12 +93,13 @@ z の値を表示する
 5. M2の値を出力する
 
 ### プログラム：
-
-    h=int(input())
-    m=int(input())
-    hm=h*60
-    m2=hm+m
-    print(m2)
+```py
+h=int(input())
+m=int(input())
+hm=h*60
+m2=hm+m
+print(m2)
+```
 
 
 
@@ -109,10 +113,11 @@ z の値を表示する
 3. Yの値を出力する
 
 ### プログラム：
-
-    x=int(input())
-    y=x%21
-    print(y)
+```py
+x=int(input())
+y=x%21
+print(y)
+```
 
 
 
@@ -128,15 +133,16 @@ z の値を表示する
 5. それ以外だったら、(Bの値よりAの値のほうが大きいということだから、)”1”を出力する
 
 ### プログラム：
-
-    a=int(input())
-    b=int(input())
-    if a<b:
-        print("-1")
-    elif a==b:
-        print("0")
-    else:
-        print("1")
+```py
+a=int(input())
+b=int(input())
+if a<b:
+    print("-1")
+elif a==b:
+    print("0")
+else:
+    print("1")
+```
 
 
 
@@ -152,16 +158,17 @@ z の値を表示する
 5. それ以外だったら、(Dの値がCの値より大きいということだから、)Dの値→Cの値の順で出力する
 
 ### プログラム：
-
-    a,b=map(int,input().split())
-    c=a+b
-    d=a-b
-    if c>d:
-        print(c)
-        print(d)
-    else:
-        print(d)
-        print(c)
+```py
+a,b=map(int,input().split())
+c=a+b
+d=a-b
+if c>d:
+    print(c)
+    print(d)
+else:
+    print(d)
+    print(c)
+```
 
 
 
@@ -177,12 +184,13 @@ z の値を表示する
 5. それ以外だったら、(3つの整数の和が 5 以上で 2 の方が多いということだから、)”2”を出力する
 
 ### プログラム：
-
-    a,b,c=map(int,input().split())
-    if a+b+c<5:
-        print("1")
-    else:
-        print("2")
+```py
+a,b,c=map(int,input().split())
+if a+b+c<5:
+    print("1")
+else:
+    print("2")
+```
 
 
 
@@ -203,16 +211,17 @@ z の値を表示する
 10. それ以外(Sの値が0未満)だったら、(制限時間以内に移動できないということだから、)"0"を出力する
 
 ### プログラム：
-
-    x=int(input())
-    y=int(input())
-    z=int(input())
-    x*=60
-    y*=60
-    z*=60
-    z=z+30
-    s=z-(x+y)
-    if s>=0:
-        print(1)
-    else:
-        print(0)
+```py
+x=int(input())
+y=int(input())
+z=int(input())
+x*=60
+y*=60
+z*=60
+z=z+30
+s=z-(x+y)
+if s>=0:
+    print(1)
+else:
+    print(0)
+```
