@@ -18,7 +18,7 @@
 > z=x+y+3
 > print(z)
 > ```
-> [果物](https://atcoder.jp/contests/joi2024yo1a/tasks/joi2024_yo1a_a)
+> [A - 果物 (Fruit)](https://atcoder.jp/contests/joi2024yo1a/tasks/joi2024_yo1a_a)
 
 
 
