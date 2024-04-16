@@ -221,15 +221,15 @@ else:
 
 ### プログラム：
 ```py
-x=int(input())
-y=int(input())
-z=int(input())
-x*=60
-y*=60
-z*=60
-z=z+30
-s=z-(x+y)
-if s>=0:
+x = int(input())
+y = int(input())
+z = int(input())
+x *= 60
+y *= 60
+z *= 60
+z = z + 30
+s = z - ( x + y )
+if s >= 0:
     print(1)
 else:
     print(0)
