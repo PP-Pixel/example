@@ -6,7 +6,7 @@
 ## 内容
 
 ### Python
-[Python実習](https://pp-pixel.github.io//example/python/)
+[Python実習](https://pp-pixel.github.io/example/python/)
 
 <!-- ### Capyzon
 [HTML,CSS実習](https://pp-pixel.github.io/example/html-css/) -->
