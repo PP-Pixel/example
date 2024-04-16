@@ -41,7 +41,7 @@ print(c)
 ```
 > [A - 長方形 (Rectangle)](https://atcoder.jp/contests/joi2023yo1a/tasks/joi2023_yo1a_a)
 
-
+---
 
 ## 課題：「立方体」
 
@@ -60,7 +60,7 @@ print(y)
 ```
 > [A - 立方体 (Cube)](https://atcoder.jp/contests/joi2022yo1b/tasks/joi2022_yo1b_a)
 
-
+---
 
 ## 課題：「飴の袋詰め」
 
@@ -83,7 +83,7 @@ print(d)
 ```
 > [A - 飴の袋詰め (Drops Packing)](https://atcoder.jp/contests/joi2024yo1b/tasks/joi2024_yo1b_a)
 
-
+---
 
 ## 課題：「分」
 
@@ -106,7 +106,7 @@ print(m2)
 ```
 > [A - 分 (Minutes)](https://atcoder.jp/contests/joi2024yo1c/tasks/joi2024_yo1c_a)
 
-
+---
 
 ## 課題：「余り」
 
@@ -125,7 +125,7 @@ print(y)
 ```
 > [A - 余り (Remainder)](https://atcoder.jp/contests/joi2022yo1a/tasks/joi2022_yo1a_a)
 
-
+---
 
 ## 課題：「三方比較」
 
@@ -151,7 +151,7 @@ else:
 ```
 > [B - 三方比較 (Three-Way Comparison)](https://atcoder.jp/contests/joi2023yo1b/tasks/joi2023_yo1b_b)
 
-
+---
 
 ## 課題：「計算」
 
@@ -178,7 +178,7 @@ else:
 ```
 > [A - 計算 (Calculation)](https://atcoder.jp/contests/joi2021yo1c/tasks/joi2021_yo1c_a)
 
-
+---
 
 ## 課題：「３つの数」
 
@@ -201,7 +201,7 @@ else:
 ```
 > [A - 3 つの整数 (Three Integers)](https://atcoder.jp/contests/joi2020yo1a/tasks/joi2020_yo1a_a)
 
-
+---
 
 ## 課題：「移動」
 
