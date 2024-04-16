@@ -13,9 +13,9 @@
 > 
 > プログラム：
 > ```py
-> x=int(input())
-> y=int(input())
-> z=x+y+3
+> x = int(input())
+> y = int(input())
+> z = x + y + 3
 > print(z)
 > ```
 > [A - 果物 (Fruit)](https://atcoder.jp/contests/joi2024yo1a/tasks/joi2024_yo1a_a)
@@ -34,9 +34,9 @@
 
 ### プログラム：
 ```py
-a=int(input())
-b=int(input())
-c=a*b
+a = int(input())
+b = int(input())
+c = a * b
 print(c)
 ```
 > [A - 長方形 (Rectangle)](https://atcoder.jp/contests/joi2023yo1a/tasks/joi2023_yo1a_a)
@@ -54,8 +54,8 @@ print(c)
 
 ### プログラム：
 ```py
-x=int(input())
-y=x*x*x
+x = int(input())
+y = x * x * x
 print(y)
 ```
 > [A - 立方体 (Cube)](https://atcoder.jp/contests/joi2022yo1b/tasks/joi2022_yo1b_a)
@@ -75,10 +75,10 @@ print(y)
 
 ### プログラム：
 ```py
-a=int(input())
-b=int(input())
-c=int(input())
-d=a*b+c
+a = int(input())
+b = int(input())
+c = int(input())
+d = a * b + c
 print(d)
 ```
 > [A - 飴の袋詰め (Drops Packing)](https://atcoder.jp/contests/joi2024yo1b/tasks/joi2024_yo1b_a)
@@ -98,10 +98,10 @@ print(d)
 
 ### プログラム：
 ```py
-h=int(input())
-m=int(input())
-hm=h*60
-m2=hm+m
+h = int(input())
+m = int(input())
+hm = h * 60
+m2 = hm + m
 print(m2)
 ```
 > [A - 分 (Minutes)](https://atcoder.jp/contests/joi2024yo1c/tasks/joi2024_yo1c_a)
@@ -119,8 +119,8 @@ print(m2)
 
 ### プログラム：
 ```py
-x=int(input())
-y=x%21
+x = int(input())
+y = x % 21
 print(y)
 ```
 > [A - 余り (Remainder)](https://atcoder.jp/contests/joi2022yo1a/tasks/joi2022_yo1a_a)
@@ -134,17 +134,17 @@ print(y)
 ### 流れ図：
 1. 整数を入力し、Aに代入する
 2. 整数を入力し、Bに代入する
-3. もし、Aの値よりBの値のほうが大きかったら、”-1”を出力する
-4. それ以外でもし、Aの値とBの値が等しかったら、”0”を出力する
-5. それ以外だったら、(Bの値よりAの値のほうが大きいということだから、)”1”を出力する
+3. もし、Aの値よりBの値のほうが大きかったら、`-1`を出力する
+4. それ以外でもし、Aの値とBの値が等しかったら、`0`を出力する
+5. それ以外だったら、(Bの値よりAの値のほうが大きいということだから、)`1`を出力する
 
 ### プログラム：
 ```py
-a=int(input())
-b=int(input())
-if a<b:
+a = int(input())
+b = int(input())
+if a < b:
     print("-1")
-elif a==b:
+elif a == b:
     print("0")
 else:
     print("1")
@@ -166,10 +166,10 @@ else:
 
 ### プログラム：
 ```py
-a,b=map(int,input().split())
-c=a+b
-d=a-b
-if c>d:
+a, b = map(int, input().split())
+c = a + b
+d = a - b
+if c > d:
     print(c)
     print(d)
 else:
@@ -188,13 +188,13 @@ else:
 1. 整数を入力し、Aに代入する
 2. 整数を入力し、Bに代入する
 3. 整数を入力し、Cに代入する
-4. もし、3つの整数の和が 5 未満だったら 1 の方が多いことがわかるので、“1”を出力する
-5. それ以外だったら、(3つの整数の和が 5 以上で 2 の方が多いということだから、)”2”を出力する
+4. もし、3つの整数の和が 5 未満だったら 1 の方が多いことがわかるので、`1`を出力する
+5. それ以外だったら、(3つの整数の和が 5 以上で 2 の方が多いということだから、)`2`を出力する
 
 ### プログラム：
 ```py
-a,b,c=map(int,input().split())
-if a+b+c<5:
+a, b, c = map(int, input().split())
+if a + b + c < 5:
     print("1")
 else:
     print("2")
@@ -216,8 +216,8 @@ else:
 6. Zの値に60をかけ、単位を[分]になおす
 7. Z[分]の値に30[分]を足し、Zに代入する
 8. Zの値からXとYの値の和を引き、差をSに代入する
-9. もし、Sの値が 0 以上だったら、制限時間以内に移動できるということだから、"1"を出力する
-10. それ以外(Sの値が0未満)だったら、(制限時間以内に移動できないということだから、)"0"を出力する
+9. もし、Sの値が 0 以上だったら、制限時間以内に移動できるということだから、`1`を出力する
+10. それ以外(Sの値が0未満)だったら、(制限時間以内に移動できないということだから、)`0`を出力する
 
 ### プログラム：
 ```py
