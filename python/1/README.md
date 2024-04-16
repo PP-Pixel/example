@@ -18,6 +18,7 @@
 > z=x+y+3
 > print(z)
 > ```
+> [果物](https://atcoder.jp/contests/joi2024yo1a/tasks/joi2024_yo1a_a)
 
 
 
@@ -38,6 +39,7 @@ b=int(input())
 c=a*b
 print(c)
 ```
+> [A - 長方形 (Rectangle)](https://atcoder.jp/contests/joi2023yo1a/tasks/joi2023_yo1a_a)
 
 
 
@@ -56,6 +58,7 @@ x=int(input())
 y=x*x*x
 print(y)
 ```
+> [A - 立方体 (Cube)](https://atcoder.jp/contests/joi2022yo1b/tasks/joi2022_yo1b_a)
 
 
 
@@ -78,6 +81,7 @@ c=int(input())
 d=a*b+c
 print(d)
 ```
+> [A - 飴の袋詰め (Drops Packing)](https://atcoder.jp/contests/joi2024yo1b/tasks/joi2024_yo1b_a)
 
 
 
@@ -100,6 +104,7 @@ hm=h*60
 m2=hm+m
 print(m2)
 ```
+> [A - 分 (Minutes)](https://atcoder.jp/contests/joi2024yo1c/tasks/joi2024_yo1c_a)
 
 
 
@@ -118,6 +123,7 @@ x=int(input())
 y=x%21
 print(y)
 ```
+> [A - 余り (Remainder)](https://atcoder.jp/contests/joi2022yo1a/tasks/joi2022_yo1a_a)
 
 
 
@@ -143,6 +149,7 @@ elif a==b:
 else:
     print("1")
 ```
+> [B - 三方比較 (Three-Way Comparison)](https://atcoder.jp/contests/joi2023yo1b/tasks/joi2023_yo1b_b)
 
 
 
@@ -169,6 +176,7 @@ else:
     print(d)
     print(c)
 ```
+> [A - 計算 (Calculation)](https://atcoder.jp/contests/joi2021yo1c/tasks/joi2021_yo1c_a)
 
 
 
@@ -191,6 +199,7 @@ if a+b+c<5:
 else:
     print("2")
 ```
+> [A - 3 つの整数 (Three Integers)](https://atcoder.jp/contests/joi2020yo1a/tasks/joi2020_yo1a_a)
 
 
 
@@ -225,3 +234,4 @@ if s>=0:
 else:
     print(0)
 ```
+> [B - 移動 (Moving)](https://atcoder.jp/contests/joi2022yo1a/tasks/joi2022_yo1a_b)
