@@ -5,8 +5,11 @@
 
 ## 内容
 
-### Capyzon
-[HTML,CSS実習](https://pp-pixel.github.io/example/html-css/)
+### Python
+[Python実習](https://pp-pixel.github.io//example/python/)
+
+<!-- ### Capyzon
+[HTML,CSS実習](https://pp-pixel.github.io/example/html-css/) -->
 
 ### Test
 [定期考査のためのPDF配布所](https://pp-pixel.github.io/example/test/)
