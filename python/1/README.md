@@ -20,7 +20,7 @@
 > ```
 > [A - 果物 (Fruit)](https://atcoder.jp/contests/joi2024yo1a/tasks/joi2024_yo1a_a)
 
-
+---
 
 ## 課題：「長方形」
 
