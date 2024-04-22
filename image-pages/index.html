@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="none">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>画像の拡大・縮小</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="image-controls">
+        <button class="change-image" data-image-src="./image.jpg">[ 1 ]</button>
+        <button class="change-image" data-image-src="./chokomap.jpg">[ 2 ]</button>
+        <button class="change-image" data-image-src="./chokoniwa.jpg">[ 3 ]</button>
+        <button class="change-image" data-image-src="./chokosaijoho.jpg">[ 4 ]</button>
+    </div>
+
+    <div class="image-container">
+        <div id="image-frame">
+            <img id="target-image" src="./image.jpg" alt="対象の画像">
+        </div>
+    </div>
+
+    <div class="button-container">
+        <button id="zoom-in">
+            <img src="./zoom_in.svg" alt="ZoomIn" class="zoom_in">
+            <!-- 拡大 -->
+        </button>
+        <button id="zoom-out">
+            <img src="./zoom_out.svg" alt="ZoomOut" class="zoom_out">
+            <!-- 縮小 -->
+        </button>
+        <button id="resetButton" style="width: 60px;">
+            <img src="./reset.svg" alt="ImageReset" class="img_reset">
+            <!-- 縮小 -->
+        </button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

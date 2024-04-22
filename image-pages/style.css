@@ -1,0 +1,65 @@
+.image-container {
+    margin-left: 9vw;
+    margin-top: 2vh;
+    width: 80vw;
+    /* フレームの幅 */
+    height: 70vh;
+    /* フレームの高さ */
+    overflow: hidden;
+    /* はみ出た部分を非表示に */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    /* ボタンとの間隔 */
+    border-radius: 16px;
+    border: 2px solid #000;
+    background-color: aliceblue;
+}
+
+.image-container img {
+    max-width: 100%;
+    /* コンテナの幅に合わせて最大幅を設定 */
+    max-height: 100%;
+    /* コンテナの高さに合わせて最大高さを設定 */
+    object-fit: contain;
+    /* アスペクト比を保ちつつ、コンテナ内に全体を収める */
+    transition: transform 0.3s ease;
+    /* 拡大・縮小時のアニメーション */
+}
+
+.button-container {
+    text-align: center;
+    /* ボタンを中央揃え */
+}
+#image-controls {
+    text-align: center;
+    margin-top: 7vh;
+}
+
+button {
+    margin: 5px;
+    /* ボタン同士の間隔 */
+    z-index: 999;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    font-size: 120%;
+    border-radius: 50px;
+    border: none;
+    background-color: #99c0fc;
+    color: white;
+}
+
+.zoom_in {
+    width: 40px;
+    margin-top: 5px;
+}
+.zoom_out {
+    width: 40px;
+    margin-top: 5px;
+}
+.img_reset {
+    width: 40px;
+    margin-top: 5px;
+}
