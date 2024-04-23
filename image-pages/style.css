@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 .image-container {
-    margin-left: 9vw;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 2vh;
     width: 80vw;
     /* フレームの幅 */
@@ -32,13 +35,15 @@
     text-align: center;
     /* ボタンを中央揃え */
 }
+
 #image-controls {
     text-align: center;
-    margin-top: 7vh;
+    /* margin-top: 7vh; */
 }
 
 button {
     margin: 5px;
+    margin-top: -5px;
     /* ボタン同士の間隔 */
     z-index: 999;
     cursor: pointer;
@@ -51,14 +56,32 @@ button {
     color: white;
 }
 
+button:hover {
+    background-color: #77aeff;
+}
+
+.change-image {
+    margin-top: 10px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* .number {
+    width: 40px;
+    margin-top: 5px;
+} */
+
 .zoom_in {
     width: 40px;
     margin-top: 5px;
 }
+
 .zoom_out {
     width: 40px;
     margin-top: 5px;
 }
+
 .img_reset {
     width: 40px;
     margin-top: 5px;
