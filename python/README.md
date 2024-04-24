@@ -9,4 +9,4 @@
 
 
 ----
-[Python ロゴ製作者様-TwitterX](https://twitter.com/sawaratsuki1004)
+[Python ロゴ製作者様](https://twitter.com/sawaratsuki1004)
