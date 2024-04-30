@@ -4,6 +4,8 @@
 
 ## 課題①
 > 
+
+### コード
 ```c
 #include <Wire.h>
 #include <VL53L0X.h>
@@ -24,11 +26,14 @@ void loop()
     delay(500);
 }
 ```
+### 配線図
 ![配線図1](./images/kada1.webp)
 
 
 ## 課題②
 > 距離センサより得た値が 50 以下になったら、LED を点灯させ、シリアルモニタに"STOP"と表示する。
+
+### コード
 ```c
 #include <Wire.h>
 #include <VL53L0X.h>
@@ -58,4 +63,5 @@ void loop()
     delay(500);
 }
 ```
-![回路図2](./images/kada2.webp)
+### 配線図
+![配線図2](./images/kada2.webp)
