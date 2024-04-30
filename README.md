@@ -8,7 +8,7 @@
 ### Python
 [Python実習](https://pp-pixel.github.io/example/python/)
 
-### MiCom
+### ESP32
 [レーザー距離センサ](https://pp-pixel.github.io/example/micom/)
 
 <!-- ### Capyzon
