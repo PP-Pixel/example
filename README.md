@@ -8,6 +8,9 @@
 ### Python
 [Python実習](https://pp-pixel.github.io/example/python/)
 
+### マイコン実習
+[レーザー距離センサ](https://pp-pixel.github.io/example/micom/)
+
 <!-- ### Capyzon
 [HTML,CSS実習](https://pp-pixel.github.io/example/html-css/) -->
 
