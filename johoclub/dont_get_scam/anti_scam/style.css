@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 200%;
+    background-color: black;
+    background-image: url(https://geekprank.com/fake-virus/background.jpg);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: 200%;
+    color: red;
+    /* color: yellow; */
+    /* overflow: hidden; */
+}
+
+.box {
+    padding: 100px;
+    text-align: center;
+}
+
+.off {
+    display: block;
+    position: absolute;
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    z-index: 99;
+    top: 25%;
+    left: 75%;
+    transform:rotate(20deg);
+    text-align: center;
+    border: 1px solid #383838;
+}
+
+#timer {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #383838;
+    /* border: 1px solid #ccc; */
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.progress {
+    width: 0%;
+    height: 100%;
+    background-color: #ff0000;
+    border-radius: 5px;
+}
+
+label {
+    margin-top: 20px;
+}
+
+.keybox {
+    margin-top: 20px;
+    margin-bottom: 50vh;
+}
+
+input[type="password"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60%;
+    height: 30px;
+    font-size: 20px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 20%;
+    height: 42px;
+    font-size: 17px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.ScamTaiken {
+    background-color: white;
+    color: black;
+    border-radius: 16px;
+    text-align: center;
+    padding: 100px;
+    margin-bottom: 20vh;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>詐欺にご注意ください｜情報工学班</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../joulogo.png">
+    <link rel="apple-touch-icon" sizes="1041x1004" href="../joulogo.png">
+</head>
+
+<body>
+    <div id="splash">
+        <div id="splash_logo"><img src="" alt="" class="fadeUp"></div>
+    </div>
+    <div class="box">
+        <h1>
+            <u>&nbsp;<span class="rubyposition"><ruby>詐欺<rt>さぎ</rt></ruby></span>サイト</u>にご<span
+                class="rubyposition"><ruby>注意
+                    <rt>ちゅうい</rt>
+                </ruby></span>ください！
+        </h1>
+        <img src="../caution.png" width="40%">
+    </div>
+    <div class="box2">
+        <p>
+            このサイトはプレゼントキャンペーンを<span class="rubyposition"><ruby>装<rt>よそお</rt></ruby></span>った
+            <span class="rubyposition"><ruby>詐欺<rt>さぎ</rt></ruby></span>サイトの<span class="rubyposition"><ruby>注意喚起<rt>
+                        ちゅういかんき</rt></ruby></span>をするためのサイトです。<br>
+            このサイトに<span class="rubyposition"><ruby>入力<rt>にゅうりょく</rt></ruby></span>された<span class="rubyposition"><ruby>内容
+                    <rt>ないよう</rt>
+                </ruby></span>は
+            <span class="rubyposition"><ruby>保存<rt>ほぞん</rt></ruby></span>されませんのでご
+            <span class="rubyposition"><ruby>安心<rt>あんしん</rt></ruby></span>ください。<br>
+        </p>
+        <p class="reference">
+            参考：
+            <li><a class="reference-link" href="https://www.npa.go.jp/bureau/cyber/countermeasures/fake-shop.html"
+                    target="_blank">偽ショッピングサイト・詐欺サイト対策&nbsp;|&nbsp;警察庁Webサイト</a></li>
+        </p>
+    </div>
+    <div class="home">
+        <a href="javascript:history.go(-2)" onselectstart="return false;" onmousedown="return false;">
+        <span class="material-symbols-outlined">
+            home
+        </span>
+        </a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>
+        $(window).on('load', function () {
+            $("#splash").delay(1500).fadeOut('slow');//ローディング画面を1.5秒（1500ms）待機してからフェードアウト
+            $("#splash_logo").delay(1200).fadeOut('slow');//ロゴを1.2秒（1200ms）待機してからフェードアウト
+        });
+    </script>
+</body>
+
+</html>

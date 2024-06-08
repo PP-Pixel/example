@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* PC表示時のスタイル */
+#pc-content {
+    display: block;
+}
+
+/* スマホ表示時のスタイル */
+#sp-message {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    /* スマホ表示時のスタイル */
+    #pc-content {
+        display: none;
+    }
+
+    #sp-message {
+        display: block;
+        padding: 20px;
+        background-color: #fdd;
+        border: 1px solid #faa;
+        text-align: center;
+        z-index: 99999;
+        margin: 40vh 10vw;
+    }
+
+    #info {
+        display: none;
+    }
+
+    .modaal-container {
+        display: none;
+    }
+
+    .modaal-close {
+        display: none;
+    }
+}
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 17px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.contents_box::-webkit-scrollbar {
+    display: none;
+}
+
+.title {
+    text-align: center;
+}
+
+.rubyposition {
+    display: inline-block;
+    ruby-position: over;
+}
+
+.background {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+iframe {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/*infoエリアをはじめは非表示*/
+#info {
+    display: none;
+}
+
+/*モーダルの横幅を変更したい場合*/
+.modaal-container {
+    width: 80%;
+    height: 85%;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    overflow: scroll;
+    border-radius: 16px;
+}
+
+/*モーダルのボタンの色を変更したい場合*/
+.modaal-close:after,
+.modaal-close:before {
+    background-color: white;
+}
+
+.modaal-close:focus:after,
+.modaal-close:focus:before,
+.modaal-close:hover:after,
+.modaal-close:hover:before {
+    background: #66666666;
+}
+
+.forms {
+    display: flex;
+    padding: 50px;
+}
+
+/* #name {
+    width: 60%;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.send {
+    width: 20%;
+    height: 31px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 16px;
+} */
+
+label {
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60%;
+    font-size: 17px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    margin-left: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 20%;
+    font-size: 17px;
+}
+
+.present {
+    display: block;
+    margin: auto;
+    width: 35vw;
+    margin-top: -50px;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プレゼントキャンペーン🎁</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../joulogo.png">
+    <link rel="apple-touch-icon" sizes="1041x1004" href="../joulogo.png">
+</head>
+
+<body>
+    <div id="pc-content">
+        <div class="background">
+            <iframe src="https://chokojohohan.github.io/Computerscienceclub/home.html"></iframe>
+            <p><a href="#info" class="modal-open" style="display: none;">お知らせを開く</a></p>
+        </div>
+        <section id="info" class="pre-box">
+            <div class="title">
+                <h1><span class="rubyposition"><ruby>情報工学班<rt>じょうほうこうがくはん</rt></ruby></span>プレゼントキャンペーン🎁<i>!</i></h1>
+                <p><span class="rubyposition"><ruby>下<rt>した</rt></ruby></span>のフォームに<span class="rubyposition"><ruby>名前
+                            <rt>
+                                なまえ</rt>
+                        </ruby></span>
+                    <!--と
+                    <span class="rubyposition"><ruby>年齢<rt>ねんれい</rt></ruby></span>-->を<span class="rubyposition"><ruby>入力
+                            <rt>
+                                にゅうりょく</rt>
+                        </ruby></span>
+                    すると、もれなくプレゼントがゲットできます<i>！</i>
+                </p>
+            </div>
+            <form onsubmit="checkInput(); return false;">
+                <div class="forms">
+                    <label for="name">お<span class="rubyposition"><ruby>名前<rt>なまえ</rt></ruby></span>：</label>
+                    <input type="text" id="name" name="name" placeholder="お名前を入力してください。" required>
+                    <input type="submit" class="send"><br>
+                </div>
+            </form>
+            <img class="present" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnUZdJQAwo1DM8wenN_UdntVztCFwFjadels7bOSt40_jjemT0wAmwOshWgzbDAALAdQzMe2d9d_E8iK-BONISjKQo6YrJ3wGaX-z11egQU_a1DpjPu2VuSbdpUtDmJZKT_BucY0je3IE/s800/text_raijou_present.png">
+        </section>
+    </div>
+    <div id="sp-message">
+        <p>このサイトはPCでの閲覧を推奨しています。<br>お手数ですが、PCでアクセスしてください。</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 120%;
+    background-color: #ffda00;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+    /* overflow: hidden; */
+}
+
+.box {
+    margin: 60px;
+    padding: 50px;
+    border: 5px solid black;
+    margin-bottom: 50vh;
+}
+
+.box2 {
+    margin: 60px;
+    padding: 50px;
+    border: 5px solid black;
+    background-color: white;
+    font-size: 130%;
+    margin-bottom: 50vh;
+}
+
+/* Loading背景画面設定 */
+#splash {
+    /*fixedで全面に固定*/
+    position: fixed;
+    margin-top: -60px;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    background: black;
+    text-align: center;
+    color: #fff;
+}
+
+/* Loading画像中央配置　
+#splash_logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Loading アイコンの大きさ設定　*/
+/* #splash_logo img {
+    width: 260px;
+}  */
+
+/* fadeUpをするアイコンの動き */
+/* .fadeUp {
+    animation-name: fadeUpAnime;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fadeUpAnime {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+} */
+
+h1 {
+    letter-spacing: 0.2em;
+}
+
+.reference {
+    text-align: left;
+    color: black;
+    margin-left: 13%;
+}
+
+.reference-link {
+    color: black;
+}
+
+.home a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    z-index: 99;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    color: black;
+    width: 60px;
+    line-height: 60px;
+}
