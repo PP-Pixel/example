@@ -2,18 +2,25 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>クエリパラメータによる表示切替</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../johoclub/joulogo.png">
 </head>
 
 <body>
 
-    <div id="true-content" class="hidden">
+    <label class="switch">
+        <input type="checkbox" id="param-toggle" checked>
+        <span class="slider round"></span>
+    </label>
+
+    <div id="true-content" class="content">
         <h1>Trueの表示</h1>
         <p>?param=True</p>
     </div>
 
-    <div id="false-content" class="hidden">
+    <div id="false-content" class="content hidden">
         <h1>Falseの表示</h1>
         <p>?param=False</p>
     </div>
