@@ -95,7 +95,7 @@ iframe {
     padding-bottom: 0px;
     padding-left: 100px;
     padding-right: 100px;
-    overflow: scroll;
+    /* overflow: scroll; */
     border-radius: 16px;
 }
 
@@ -133,6 +133,7 @@ iframe {
 } */
 
 label {
+    display: block;
     margin-top: 4px;
     margin-bottom: 5px;
 }
@@ -160,7 +161,8 @@ input[type="submit"] {
 .present {
     display: block;
     margin: auto;
-    width: 35vw;
+    /* width: 35vw; */
+    height: 400px;
     margin-top: -50px;
     margin-bottom: 0px;
 }
