@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../johoclub/joulogo.png">
+    <title>フォーム</title>
+</head>
+
+<body>
+    <h1>フォーム</h1>
+    <form id="myForm" action="https://script.google.com/macros/s/AKfycbz5NKyraW5VEEEJQJ4doZUSO5tuLhM2zNhctUlRC4pR1nWUcdz2xhVlhvDl-T95TB_h/exec" method="post">
+        <label for="name">名前:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="birthday">生年月日:</label><br>
+        <input type="date" id="birthday" name="birthday" required><br><br>
+
+        <label for="postcode">郵便番号:</label><br>
+        <input type="text" id="postcode" name="postcode" placeholder="ハイフンなし" required><br><br>
+
+        <label for="address">住所:</label><br>
+        <input type="text" id="address" name="address" required><br><br>
+
+        <label for="tel">電話番号:</label><br>
+        <input type="tel" id="tel" name="tel" placeholder="ハイフンなし" required><br><br>
+
+        <label for="email">メールアドレス:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <button type="submit">送信</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
