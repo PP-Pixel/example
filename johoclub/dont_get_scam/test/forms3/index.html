@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fishing/style.css">
+    <title>フォーム</title>
+</head>
+
+<body>
+    <h2>フォーム</h2>
+    <div class="input">
+        <form id="registrationForm">
+            <label for="name">名前:</label>
+            <input type="text" id="name" name="name" placeholder="名前">
+
+            <label for="birthdate">生年月日:</label>
+            <input type="date" id="birthdate" name="birthdate" placeholder="生年月日">
+
+            <label for="email">メールアドレス:</label>
+            <input type="text" id="email" name="email" placeholder="メールアドレス">
+
+            <label for="phone">電話番号(ハイフンなし):</label>
+            <input type="tel" id="phone" name="phone" placeholder="電話番号(ハイフンなし)">
+
+            <label for="address">住所:</label>
+            <input type="text" id="address" name="address" placeholder="住所">
+
+            <!-- <label for="bank_name">銀行名:</label>
+            <input type="text" id="bank_name" name="bank_name" placeholder="銀行名">
+
+            <label for="bank_names">支店名:</label>
+            <input type="text" id="bank_names" name="bank_names" placeholder="支店名">
+
+            <label for="account_type">口座種別:</label>
+            <input type="text" id="account_type" name="account_type" placeholder="口座種別">
+
+            <label for="account_number">口座番号:</label>
+            <input type="text" id="account_number" name="account_number" placeholder="口座番号">
+            <label for="account_name">口座名義人名:</label>
+            <input type="text" id="account_name" name="account_name" placeholder="口座名義人名"> -->
+
+            <div class="button-container">
+                <input id="playButton" class="btn" type="button" value="送信" onclick="submitForm()">
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function submitForm() {
+            var formData = new FormData(document.getElementById("registrationForm"));
+
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    alert("コメントを送信しました。");
+                    document.getElementById("name").value = "";
+                    document.getElementById("birthdate").value = "";
+                    document.getElementById("email").value = "";
+                    document.getElementById("phone").value = "";
+                    document.getElementById("address").value = "";
+                    // document.getElementById("bank_name").value = "";
+                    // document.getElementById("bank_names").value = "";
+                    // document.getElementById("account_type").value = "";
+                    // document.getElementById("account_number").value = "";
+                    // document.getElementById("account_name").value = "";
+                    window.location.href = './send/';
+                }
+            };
+            xhr.open("POST", "");
+            xhr.send(formData);
+        }
+    </script>
+</body>
+
+</html>
