@@ -10,9 +10,14 @@
     <meta property="og:image" content="https://pp-pixel.github.io/example/johoclub/joulogo.png">
     <meta name="twitter:card" content="summary_large_image">
     <title>Computer Science Club</title>
+    <link rel="icon" href="../joulogo.png">
+    <link rel="apple-touch-icon" sizes="1041x1004" href="../joulogo.png">
 </head>
 
 # 情報工学班
 
 ## 詐欺体験サイト
 [プレゼントキャンペーンを装った詐欺サイト風サイト](./dont_get_scam/joho_present_campaign/)
+
+## Your CHaser AI
+[Your CHaser AI](./chaser-ai/)
