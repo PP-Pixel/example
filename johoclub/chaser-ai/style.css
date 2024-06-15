@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    vertical-align: middle;
+    padding: 100px 0;
+    text-align: center;
+    background-color: #00a1e655;
+    background-image: url(https://www.nagano-cci.or.jp/u15procon/images/character07.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.top {
+    display: block;
+    height: 100vh;
+    background-color: #ffffff00;
+    color: black;
+}
+
+.blur {
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #ffffff88;
+    backdrop-filter: blur(7px);
+    border-radius: 16px;
+    position: relative;
+    text-align: center;
+}
+
+.blur div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-family: "Urbanist", sans-serif;
+    font-size: 300%;
+}
+
+p {
+    font-size: 110%;
+}
+
+.chaser-link {
+    margin-top: 100px;
+    /*線の基点とするためrelativeを指定*/
+    position: relative;
+    /*ボタンの形状*/
+    color: cornflowerblue;
+    backdrop-filter: blur(10px);
+    border: 1px solid cornflowerblue;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+    /*アニメーションの指定*/
+    transition: all 0.3s ease-in-out;
+}
+
+/*hoverした際の背景の形状*/
+.chaser-link:hover {
+    background: cornflowerblue;
+    color: #fff;
+    border-color: transparent;
+}
+
+/*線の設定*/
+.chaser-link::before,
+.chaser-link::after {
+    content: '';
+    /*絶対配置で線の位置を決める*/
+    position: absolute;
+    border: solid cornflowerblue;
+    width: 10px;
+    height: 10px;
+    /*アニメーションの指定*/
+    transition: all 0.3s ease-in-out;
+}
+
+/*線の位置と形状*/
+.chaser-link::before {
+    top: -6px;
+    left: -6px;
+    border-width: 1px 0 0 1px;
+}
+
+/*線の位置と形状*/
+.chaser-link::after {
+    bottom: -6px;
+    right: -6px;
+    border-width: 0 1px 1px 0;
+}
+
+/*hoverした際の線の形状*/
+.chaser-link:hover::before,
+.chaser-link:hover::after {
+    width: calc(100% + 11px);
+    height: calc(100% + 11px);
+    border-color: cornflowerblue;
+}
+
+.caution-pc {
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 100px 30%;
+}
+
+.caution-sp {
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 30px 30px;
+}
+
+ul {
+    text-align: left;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.video {
+    display: block;
+    text-align: center;
+}
+
+.footer {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: -50px;
+    color: black;
+}
+
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+.caution-pc {
+    display: block !important;
+}
+
+.caution-sp {
+    display: none !important;
+}
+
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 750px) {
+    .caution-pc {
+        display: none !important;
+    }
+
+    .caution-sp {
+        display: block !important;
+    }
+    
+    video {
+        max-width: 95%;
+    }
+}
