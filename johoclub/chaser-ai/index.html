@@ -58,8 +58,7 @@
             title="Itemを積極的に取得するプログラムの生成">Itemを積極的に取得するプログラムの生成</video><br>
         <p style="text-align: center;">Itemを積極的に取得するプログラムの生成</p></div>
         <a style="display: block;text-align: center;" class="chaser-link"
-            href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221tRXXhM1Rn8kfrucmBs2jatQRpfyOEzhm%22%5D,%22action%22:%22open%22,%22userId%22:%22111377686465834594378%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing"
-            target="_blank">使用する</a>
+            href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221tRXXhM1Rn8kfrucmBs2jatQRpfyOEzhm%22%5D,%22action%22:%22open%22,%22userId%22:%22111377686465834594378%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing">使用する</a><!--target="_blank"-->
     </div>
     <div class="caution-sp">
         <h2>使用方法</h2>
@@ -79,14 +78,22 @@
             title="Itemを積極的に取得するプログラムの生成">Itemを積極的に取得するプログラムの生成</video><br>
         <p style="text-align: center;">Itemを積極的に取得するプログラムの生成</p></div>
         <a style="display: block;text-align: center;" class="chaser-link"
-            href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221tRXXhM1Rn8kfrucmBs2jatQRpfyOEzhm%22%5D,%22action%22:%22open%22,%22userId%22:%22111377686465834594378%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing"
-            target="_blank">使用する</a>
+            href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221tRXXhM1Rn8kfrucmBs2jatQRpfyOEzhm%22%5D,%22action%22:%22open%22,%22userId%22:%22111377686465834594378%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing">使用する</a><!--target="_blank"-->
     </div>
     <p class="footer">
         &copy; 2024 PP Dev example. #Google_Gemini_1.5_Pro. <a style="color: black;"
             href="https://www.nagano-cci.or.jp/u15procon/" target="_blank">#U-15_Nagano_Programming_Contest</a>.
         #CHaser.
     </p>
+    <script>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", function () {
+                navigator.serviceWorker.register("https://pp-pixel.github.io/example/johoclub/chaser-ai/sw.js").then(
+                    function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ", registration.scope); },
+                    function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err); });
+            });
+        }
+    </script>
     <script src="script.js"></script>
 </body>
 

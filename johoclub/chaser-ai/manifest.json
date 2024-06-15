@@ -1,0 +1,25 @@
+{
+  "name": "CHaser AI",
+  "short_name": "CHaserAI",
+  "description": "Your CHaser AI | 長野U-15プログラミングコンテストに対応した「AIアシスタント」です。ルールやコードの説明、コードの修正案を教えてくれます。Google Gemini 1.5 Pro を使用しています。",
+  "start_url": "https://pp-pixel.github.io/example/johoclub/chaser-ai/",
+  "id": "CHaserAI",
+  "display": "standalone",
+  "background_color": "#303030",
+  "theme_color": "#303030",
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "icons": [
+    {
+      "src": "https://pp-pixel.github.io/example/johoclub/joulogo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://pp-pixel.github.io/example/johoclub/joulogo.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}
