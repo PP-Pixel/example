@@ -5,8 +5,8 @@
   "start_url": "https://pp-pixel.github.io/example/johoclub/chaser-ai/",
   "id": "CHaserAI",
   "display": "standalone",
-  "background_color": "#303030",
-  "theme_color": "#303030",
+  "background_color": "#00a1e655",
+  "theme_color": "#00a1e655",
   "display_override": [
     "window-controls-overlay"
   ],
